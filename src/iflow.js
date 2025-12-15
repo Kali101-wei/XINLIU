@@ -58,7 +58,7 @@ const callIFlowFreeModel = async (functionType, userInput) => {
     const { model, reasoning } = selectOptimalIFlowModel(functionType);
 
     const requestData = {
-      model: model,
+      model: 'tstars2.0',
       messages: [
         { role: 'system', content: getSystemPrompt(functionType) },
         { role: 'user', content: userInput }
@@ -145,7 +145,7 @@ const testIFlowConnection = async () => {
     // 用简单的 chat 请求来测试连接（跳过 /models 端点）
     const url = 'https://apis.iflow.cn/v1/chat/completions';
     const testData = {
-      model: 'tstars-2.0',
+      model: 'tstars2.0',
       messages: [{ role: 'user', content: '你好' }],
       max_tokens: 10
     };

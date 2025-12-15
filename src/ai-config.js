@@ -18,7 +18,7 @@ const AI_PROVIDERS = {
       models: process.env.IFLOW_MODELS_PATH || '/models'
     },
     models: {
-      IFLOW_TSTARS: process.env.IFLOW_MODEL || 'tstars-2.0'
+      IFLOW_TSTARS: process.env.IFLOW_MODEL || 'tstars2.0'
     }
   }
 };
