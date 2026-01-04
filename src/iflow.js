@@ -54,7 +54,7 @@ const callIFlowFreeModel = async (functionType, userInput) => {
       return { success: false, error: '输入内容不能为空，请输入有效的文本内容后再试。' };
     }
 
-    const apiKey = 'sk-8bcd4e38ff67c5d3b8211b8b2f923342';
+    const apiKey = 'sk-0c62f73e4b4c55be230cc4011dc43358';
     const { model, reasoning } = selectOptimalIFlowModel(functionType);
 
     const requestData = {
@@ -141,7 +141,7 @@ const callIFlowFreeModel = async (functionType, userInput) => {
 
 const testIFlowConnection = async () => {
   try {
-    const apiKey = 'sk-8bcd4e38ff67c5d3b8211b8b2f923342';
+    const apiKey = 'sk-0c62f73e4b4c55be230cc4011dc43358';
     // 用简单的 chat 请求来测试连接（跳过 /models 端点）
     const url = 'https://apis.iflow.cn/v1/chat/completions';
     const testData = {
