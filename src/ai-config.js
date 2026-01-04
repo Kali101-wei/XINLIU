@@ -1,10 +1,10 @@
 // 简单的心流AI配置示例
 const API_CONFIG = {
   production: {
-    IFLOW_API_KEY: 'sk-8bcd4e38ff67c5d3b8211b8b2f923342'
+    IFLOW_API_KEY: 'sk-0c62f73e4b4c55be230cc4011dc43358'
   },
   development: {
-    IFLOW_API_KEY: 'sk-8bcd4e38ff67c5d3b8211b8b2f923342'
+    IFLOW_API_KEY: 'sk-0c62f73e4b4c55be230cc4011dc43358'
   }
 };
 
